@@ -452,6 +452,234 @@ section.newsletter .box_news .box_input .mail_input input:last-child {
   letter-spacing: 2px;
 }
 
+@media (max-width: 375px) {
+  section.whatIsIt_events .mw-100 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  section.whatIsIt_events .mw-100 .col-6 {
+    width: 100%;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .d-flex .display-2 {
+    text-align: center;
+    margin-bottom: -20% !important;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .text_content p {
+    text-align: center;
+    font-size: 90% !important;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .text_content p:last-of-type {
+    margin-top: -10% !important;
+  }
+  section.whatIsIt_events .mw-100 .right {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  section.whatIsIt_events .mw-100 .right ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  section.whatIsIt_events .mw-100 .right ul li {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card {
+    background: rgba(34, 1, 77, 0.5) !important;
+    border-radius: 45px;
+    border: none;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card img {
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card .card-body h4, section.whatIsIt_events .mw-100 .right ul li .card .card-body .h4 {
+    letter-spacing: 1px;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card .card-body .butn a {
+    width: 45%;
+    border-radius: 15px;
+    font-size: 1.1rem;
+  }
+  section.whatIsIt_events .mw-100 .right ul li:last-of-type {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    gap: 2px;
+  }
+  section.whatIsIt_events .mw-100 .right ul li:last-of-type .card {
+    margin-left: 11% !important;
+    margin-bottom: 20% !important;
+    align-self: center !important;
+  }
+  section.whatIsIt_events .mw-100 .right ul li:last-of-type .card:last-of-type {
+    margin: 0 !important;
+  }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+  section.whatIsIt_events .mw-100 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  section.whatIsIt_events .mw-100 .col-6 {
+    width: 100%;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .d-flex .display-2 {
+    text-align: center;
+    margin-bottom: -20% !important;
+    font-size: 300%;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .text_content p {
+    text-align: center;
+    font-size: 90% !important;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .text_content p:last-of-type {
+    margin-top: -5% !important;
+  }
+  section.whatIsIt_events .mw-100 .right {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  section.whatIsIt_events .mw-100 .right ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  section.whatIsIt_events .mw-100 .right ul li {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card {
+    background: rgba(34, 1, 77, 0.5) !important;
+    border-radius: 45px;
+    border: none;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card img {
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card .card-body h4, section.whatIsIt_events .mw-100 .right ul li .card .card-body .h4 {
+    letter-spacing: 1px;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card .card-body .butn a {
+    width: 45%;
+    border-radius: 15px;
+    font-size: 1.1rem;
+  }
+  section.whatIsIt_events .mw-100 .right ul li:last-of-type {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    gap: 2px;
+  }
+  section.whatIsIt_events .mw-100 .right ul li:last-of-type .card {
+    margin-left: 11% !important;
+    margin-bottom: 20% !important;
+    align-self: center !important;
+  }
+  section.whatIsIt_events .mw-100 .right ul li:last-of-type .card:last-of-type {
+    margin: 0 !important;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  section.whatIsIt_events .mw-100 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  section.whatIsIt_events .mw-100 .col-6 {
+    width: 100%;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .d-flex .display-2 {
+    text-align: center;
+    margin-bottom: -5% !important;
+    font-size: 425%;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .text_content p {
+    text-align: center;
+    font-size: 110% !important;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .text_content p:last-of-type {
+    margin-top: 0% !important;
+  }
+  section.whatIsIt_events .mw-100 .right {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  section.whatIsIt_events .mw-100 .right ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  section.whatIsIt_events .mw-100 .right ul li {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card {
+    background: rgba(34, 1, 77, 0.5) !important;
+    border-radius: 45px;
+    border: none;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card img {
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card .card-body h4, section.whatIsIt_events .mw-100 .right ul li .card .card-body .h4 {
+    letter-spacing: 1px;
+  }
+  section.whatIsIt_events .mw-100 .right ul li .card .card-body .butn a {
+    width: 45%;
+    border-radius: 15px;
+    font-size: 1.1rem;
+  }
+  section.whatIsIt_events .mw-100 .right ul li:last-of-type {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: end !important;
+    gap: 2px;
+  }
+  section.whatIsIt_events .mw-100 .right ul li:last-of-type .card {
+    margin-left: 11% !important;
+    margin-bottom: 20% !important;
+    align-self: center !important;
+  }
+  section.whatIsIt_events .mw-100 .right ul li:last-of-type .card:last-of-type {
+    margin: 0 !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  section.whatIsIt_events .mw-100 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  section.whatIsIt_events .mw-100 .col-6 {
+    width: 100%;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .d-flex .display-2 {
+    text-align: center;
+    margin-bottom: 0 !important;
+    font-size: 410%;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .text_content p {
+    text-align: center;
+    font-size: 120% !important;
+  }
+  section.whatIsIt_events .mw-100 .col-6 .w-75 .text_content p:last-of-type {
+    margin-top: 0% !important;
+  }
+}
 footer {
   background-color: #2c2a4a;
   display: flex;
