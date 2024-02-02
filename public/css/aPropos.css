@@ -335,6 +335,9 @@ body header .text_header h1, body header .text_header .h1 {
     line-height: 64px;
   }
 }
+section .main_box .text_box {
+  padding-top: 4%;
+}
 section .main_box .text_box .box_inside .title_logo {
   align-self: center;
   justify-content: center;
@@ -342,6 +345,45 @@ section .main_box .text_box .box_inside .title_logo {
 }
 section .main_box .text_box .box_inside .title_logo img {
   width: 60%;
+}
+section .main_box .text_box .box_inside .text .left {
+  padding-top: 7%;
+}
+section .main_box .text_box .box_inside .text .left p {
+  line-height: 250%;
+  font-size: 120%;
+  text-align: center;
+  padding-right: 5%;
+}
+section .main_box .text_box .box_inside .text .left p:last-of-type {
+  text-align: center;
+}
+section .main_box .text_box .box_inside .text .right .right_inside {
+  padding-top: 14%;
+}
+section .main_box .text_box .box_inside .text .right .right_inside p {
+  font-size: 120%;
+  line-height: 250%;
+  text-align: center;
+  padding-right: 5%;
+}
+section .main_box .text_box .box_inside .text .right .te {
+  font-size: 120%;
+  line-height: 250%;
+  text-align: center;
+}
+section .main_box .pics_box .pics_inside .top {
+  justify-content: space-evenly;
+}
+section .main_box .pics_box .pics_inside .top img {
+  width: 35% !important;
+}
+section .main_box .pics_box .pics_inside .bot {
+  display: flex;
+  justify-content: center;
+}
+section .main_box .pics_box .pics_inside .bot img {
+  width: 40%;
 }
 
 footer {
